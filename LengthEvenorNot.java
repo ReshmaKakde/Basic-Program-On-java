@@ -1,4 +1,4 @@
-class StringLength
+class LengthEvenorNot
 {
 public static void main(String [] args)
 {
@@ -9,7 +9,12 @@ for(int i=0;i<=ch.length-1;i++)
 {
 count++;
 }
-System.out.println("The length of String is:"+count);
+if(count%2==0)
+System.out.println("The length of String is even");
+else
+System.out.println("The length of String is not even");
 }
 }
+
+
 
